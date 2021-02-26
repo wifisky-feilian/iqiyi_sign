@@ -6,7 +6,7 @@ import os
 
 class push():
     def dingtalk(self,contents):  #钉钉消息推送
-        webhook_url = os.environ["dingding"]
+        dingding = os.environ["dingding"]
         dd_header = {"Content-Type": "application/json", "Charset": "UTF-8"}
         dd_message = {
             "msgtype": "text",
@@ -14,7 +14,7 @@ class push():
                 "content": f'bilibili每日任务信息通知！\n{contents}'
             }
         }
-        r = requests.post(url=webhook_url,
+        r = requests.post(url=dingding,
                         headers=dd_header,
                         data=json.dumps(dd_message))
         if r.status_code == 200:
