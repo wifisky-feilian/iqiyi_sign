@@ -9,6 +9,9 @@ def main():
     #创建信息推送对象
     _push = push()
     #钉钉推送
-    _push.start(contents)
+    try:
+        _push.start(contents)
+    except:
+        print('[+]推送参数未填写或推送脚本出错')
 if __name__ == '__main__':
     main()
