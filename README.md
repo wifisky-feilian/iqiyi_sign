@@ -2,6 +2,10 @@
 爱奇艺签到，完成每日任务，自用
 填两个值
 
-iqiyi_cookie
+1.iqiyi_cookie
 
-dingding
+2.dingding
+---------------------------------------------------------------------------
+cookie获取方式
+打开https://www.iqiyi.com 并登录
+f12翻到第一个https://www.iqiyi.com 双击复制request headers 里面的cookie
