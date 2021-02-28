@@ -6,6 +6,7 @@
 
 2.dingding
 ---------------------------------------------------------------------------
-cookie获取方式
-打开https://www.iqiyi.com 并登录
-f12翻到第一个https://www.iqiyi.com 双击复制request headers 里面的cookie
+cookie获取方式：
+1.打开https://www.iqiyi.com 并登录
+
+2.f12翻到第一个https://www.iqiyi.com 双击复制request headers 里面的cookie
